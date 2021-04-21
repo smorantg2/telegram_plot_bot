@@ -6,6 +6,8 @@ This was just an excuse to work with the Telegram API for Python and use some si
 The user chooses the kind of plot they want, texts the data (and an optional title) to the bot and it returns the plot in a .png file.
 It has been prepared to make line plots, bar graphs and pie charts.
 
+If you want to use it, take into consideration it has not been prepared to work with more than one conversation at the same time. Variables from different chats could get mixed up.
+
 ## Python Package Requirements
 
 - Telebot
